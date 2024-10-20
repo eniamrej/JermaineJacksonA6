@@ -35,7 +35,7 @@ namespace JermaineJacksonA6
                         richTextBox1.AppendText(book + "\n\n");
                     }
 
-                    MessageBox.Show($@"Loaded {Books.Count} books successfully.");
+                    MessageBox.Show($@"Data loaded successfully.");
                 }
                 catch (Exception ex)
                 {
