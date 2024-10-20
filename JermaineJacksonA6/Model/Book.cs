@@ -41,10 +41,10 @@ namespace JermaineJacksonA6.Model
         [JsonPropertyName("Genre")]
         public string Genre { get; set; }
         /// <summary>
-        /// Gets or sets the publish year.
+        /// Gets or sets the publishing year.
         /// </summary>
         /// <value>
-        /// The publish year.
+        /// The publishing year.
         /// </value>
         [JsonPropertyName("Year Published")]
         public int PublishYear { get; set; }
@@ -64,7 +64,7 @@ namespace JermaineJacksonA6.Model
         /// <param name="author">The author.</param>
         /// <param name="pageLength">Length of the page.</param>
         /// <param name="genre">The genre.</param>
-        /// <param name="publishYear">The publish year.</param>
+        /// <param name="publishYear">The publishing year.</param>
         /// <param name="msrp">The MSRP.</param>
         public Book(string title, string author, int pageLength, string genre, int publishYear, double msrp)
         {
